@@ -1,0 +1,92 @@
+{
+  "version": "3.84.31722.0",
+  "course_id": "5hS1kaFSpC4",
+  "title": "Persuading Teachers",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5dXJnx5beRz",
+      "title": "Title",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5vky6JpLMvz",
+      "title": "Definition",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "63Oy1gI3pAc",
+      "title": "True or False",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5xd6Z3XYyRG",
+      "title": "1 of the 3 C's ",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6mf61BxcvD5",
+      "title": "2 of the 3 C's ",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "5iuhSVOPbW5",
+      "title": "3 of the 3 C's ",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6hbVMYhFs79",
+      "title": "Multiple Choice Question ",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "6P6ZoTyfrlF",
+      "title": "Constructivist Theory ",
+      "scene_index": "1.8"
+    },
+    {
+      "id": "5gad8LpTmYA",
+      "title": "When do you use Assertive Communication?",
+      "scene_index": "1.9"
+    },
+    {
+      "id": "5ZXpl3eWDuB",
+      "title": "Fill in the Blank ",
+      "scene_index": "1.10"
+    },
+    {
+      "id": "6MA3wEOwY1n",
+      "title": "Summary ",
+      "scene_index": "1.11"
+    },
+    {
+      "id": "5jAXvzlp9NP",
+      "title": "Results Slide",
+      "scene_index": "1.12"
+    },
+    {
+      "id": "5buimeC6cEt",
+      "title": "References ",
+      "scene_index": "1.13"
+    },
+    {
+      "id": "6oKeibb2hJF",
+      "title": "Credits ",
+      "scene_index": "1.14"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1220,
+    "height": 658
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}
