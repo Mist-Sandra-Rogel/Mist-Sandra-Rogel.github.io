@@ -7,6 +7,7 @@
     <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
     <layout name="pxabnsnfns00001100100" font="Lato" controllayout="pxabnsnfns00001100100" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
     <layout name="npnxnabnsnfns00001100101" font="Lato" controllayout="npnxnabnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
+    <layout name="npnxanbnsnfns00001100101" font="Lato" controllayout="npnxanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00001100101" string_table="npnxnanbnsnfns00001100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -227,6 +228,31 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="false" />
       <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
@@ -1597,43 +1623,44 @@
       <links>
         <slidelink slideid="_player.5wk4DgFZqwa" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5wk4DgFZqwa.6RALYZQZmCn" displaytext="Helpful Communication Techniques between Families and ELP Teachers " expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6RALYZQZmCn" displaytext="Title Page" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6hiMVKxDBam" displaytext="Our Mission " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6fcRFxdhHPx" displaytext="Definition of Communication " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.5XD6MQryzEp" displaytext="Learning Objectives " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6BcK9awwNcx" displaytext="Why is communication so important in preschool?" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6OGmUUfpFIK" displaytext="Types of Communication " expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5qKgifJ24xE" displaytext="50/50 LAYOUT" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5qKgifJ24xE" displaytext="The 7 c&amp;apos;s list" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6fGussDaTT7" displaytext="The 7 C’s " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6KdCvLpJtJM" displaytext="The 7 C’s " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.64GYAXSewyf" displaytext="Helpful Communication Techniques between Families and ELP Teachers " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.5ueZzlkTrmL" displaytext="Helpful Communication Techniques between Families and ELP Teachers " expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5fwsM9dfAzP" displaytext="50/50 LAYOUT" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5fwsM9dfAzP" displaytext="Basic concepts of ELP teachers’  interactions with parents and guardians. " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6X801SdZL2K" displaytext="5 steps for more effective communication" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5w3TjCJfQ1v" displaytext="Teachers do not have to be flexible when it comes to communicating with families." expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5w3TjCJfQ1v" displaytext="Q6" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6RygPkivPYQ" displaytext="Helpful Communication Techniques between Families and ELP Teachers " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6YyeroK7Iwg" displaytext="Negative consequences that arise from poor communication skills considering immediate and long term impacts " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.5VVCSPf7V1K" displaytext="Communication is Essential to create successful relationships " expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.60QewGIXcv6" displaytext="MULTIPLE CHOICE" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.60QewGIXcv6" displaytext="Q5" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6WBTeTjuNGm" displaytext="Scenario One" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.5yoYk2XdA7Z" displaytext="Pause" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6S1MqgzsmmG" displaytext="Scenario Two" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.5yMaThBqReH" displaytext="Understanding" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.66a6cSUFWVV" displaytext="Do facial expressions, tone, posture, volume and other characteristics affect our communication?" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5cuR4RYjF3t" displaytext="Is it a fundamental right to be respected and heard?" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5iO8WQ3ynHx" displaytext="When communicating empathy is not significant? " expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.6GHqQpjzOL1" displaytext="MULTIPLE CHOICE" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.6QKAh4wWL4s" displaytext="MULTIPLE CHOICE" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5XQdL7feUyD" displaytext="MULTIPLE CHOICE" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5u9jOL1Lew7" displaytext="MULTIPLE CHOICE" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.5VGR3cYVwo3" displaytext="Does poor communication fracture relationships?" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.66a6cSUFWVV" displaytext="Q7" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5cuR4RYjF3t" displaytext="Q8" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5iO8WQ3ynHx" displaytext="Q9" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6GHqQpjzOL1" displaytext="Q10" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6QKAh4wWL4s" displaytext="Q11" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5XQdL7feUyD" displaytext="Q13" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5u9jOL1Lew7" displaytext="Q14" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.5VGR3cYVwo3" displaytext="Q15" expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6XLm3z19RCt" displaytext="Additional Information  " expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6c57dfMtrso" displaytext="Credits " expand="false" type="slide" />
             <slidelink slideid="_player.5wk4DgFZqwa.6PEmMXgmqko" displaytext="EXIT COURSE" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.6JglacfNzVn" displaytext="When implementing courtesy during a conversation your message is polite, friendly and ______________.&#xD;&#xA;" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.6b2eltYgog2" displaytext="MULTIPLE CHOICE" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.686AeWu54Qr" displaytext="Does ELP only focus on children 3-5 years old?" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.6FNkwN4AgSE" displaytext="Is it true that 90 % of our communication is without words?" expand="false" type="slide" />
-            <slidelink slideid="_player.5wk4DgFZqwa.6ZMmnk7sSnx" displaytext="Do strong relationships only depend on backgrounds and socioeconomic status?" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6JglacfNzVn" displaytext="Q12" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6b2eltYgog2" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.686AeWu54Qr" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6FNkwN4AgSE" displaytext="Q3" expand="false" type="slide" />
+            <slidelink slideid="_player.5wk4DgFZqwa.6ZMmnk7sSnx" displaytext="Q4" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
