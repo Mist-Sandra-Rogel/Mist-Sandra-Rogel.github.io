@@ -2,11 +2,11 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color: #d0d5cd;   /* background color */
-	color: #444;          /* text color for the entire page */
+	background-color: #14967F;   /* background color */
+     /* text color for the entire page */
 }
 
-h1, h2 { 
+h1, h2, h3, h4, h5, pr { 
 	text-align:center;     /* centers h1 and h2 content */
 }
 
@@ -17,12 +17,33 @@ h1, h2 {
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+#header{
+	padding:10px;
+	text-align:center;
+	background-color:#095D7E;
+	color: #CCECEE;
+	font-weight: bold;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	 }
+#subheader{
+	padding:-1px;
+	text-align:center;
+	background-color: #e2fcd6;
+	color: #14967F;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+
+}
 .stepTitle{
 	padding:10px;
-	text-align:left;
-	background-color:#F7B857;
+	text-align:center;
+	background-color:#CCECEE;
 	font-weight: bold;
 	font-size: 150%;
+	color: #095d7e;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
  }
 
 .stepContent{ 
@@ -31,18 +52,24 @@ h1, h2 {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	
 }
 
 .stepDescription {
-	width:55%;
+	align-self: left;
+	width:50%;
 	padding:5px;
+	text-align: center;
 	line-height:145%;
+	
 }
 
 .stepImage {
-	width:40%;	
-	padding:5px;
-	text-align: center;
+	width:35%;	
+	padding:3px;
+	margin: auto
 }
 
 .stepImage img {
