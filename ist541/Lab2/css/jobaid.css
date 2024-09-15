@@ -15,6 +15,15 @@ h1, h2, h3, h4, h5, pr {
 	width: 85%;
 	margin: 0 auto;    /* centers wrapper */
 }
+#Warning {
+	padding:10px;
+	text-align:center;
+	background-color: #FF7B7E;
+	color: #610001;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	
+}
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 #header{
