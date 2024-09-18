@@ -5,10 +5,18 @@ body {
 	background-color: #14967F;   /* background color */
      /* text color for the entire page */
 }
+details {
+	color:black;
+	font-size: 1.5em;
+	align-content: flex-start;
+	align-self: flex-start;
+}
 
 h1, h2, h3, h4, h5, pr { 
 	text-align:center;     /* centers h1 and h2 content */
 }
+
+
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
@@ -46,7 +54,7 @@ h1, h2, h3, h4, h5, pr {
 }
 .stepTitle{
 	padding:10px;
-	text-align: end;
+	text-align: start;
 	background-color:#CCECEE;
 	font-weight: bold;
 	font-size: 150%;
