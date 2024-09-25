@@ -6,8 +6,14 @@ body {
      /* text color for the entire page */
 }
 
-h1, h2, h3, h4, h5, pr { 
+h1, h2, h4, h5, pr { 
 	text-align:center;     /* centers h1 and h2 content */
+}
+h3  { 
+	text-align:center;
+	font-weight: bold;
+	font-size: 150%;
+	/* centers h1 and h2 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -46,12 +52,12 @@ h1, h2, h3, h4, h5, pr {
 }
 .stepTitle{
 	padding:10px;
-	text-align: end;
-	align-self: center;
+	text-align:justify;
+	vertical-align: middle;
+	alignment-baseline: bottom;
 	background-color:#CCECEE;
-	font-weight: bold;
-	font-size: 150%;
 	color: #095d7e;
+	font-weight: bold;
 	border-radius: 50px;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
  }
@@ -61,7 +67,7 @@ h1, h2, h3, h4, h5, pr {
 	padding:7px;
 	display: flex;
 	flex-wrap:wrap;
-	justify-content: center;
+	justify-content: left;
 	border-radius: 50px;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 	
