@@ -2,13 +2,12 @@
 a {
 	padding: 15px;
 	margin: 3px;
-	font-size: 125%;
+	font-size: 100%;
 	background-color: #CCECEE; 
 	color: #095d7e; 
 	text-align:justify;
 	width: 35%;
 	border-radius: 50px;
-	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 
 a:hover {
@@ -61,8 +60,9 @@ h2 {color: white}
 	color: #14967F;
 	border-radius: 50px;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
 .stepTitle{
-	padding:10px;
+	padding:50px;
 	text-align:center;
 	background-color:#CCECEE;
 	font-weight: bold;
