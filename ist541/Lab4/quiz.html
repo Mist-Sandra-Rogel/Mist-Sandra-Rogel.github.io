@@ -1,0 +1,47 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Lab:4 Question 2</title>
+<link href="css/jobaid.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script>
+   $( function() {
+	   $("#option1").click( function(){
+		   $("#feedback").html("<h2 style='color:red'> Not quite, the primary goal of communication between teachers and families is to establish  positive relationships.</h2>");
+	   });
+	   
+       $("#option2").click( function(){
+		   $("#feedback").html("<h2 style='color:red'>  Not quite, the primary goal of communication between teachers and families is to establish  positive relationships </h2>");
+	   });	 
+	   
+       $("#option3").click( function(){
+		   $("#feedback").html("<h2 style='color:green'> Correct! The primary goal of communication between teachers and families is to establish  positive relationships </h2>");
+		   $("#Answer").css("display","inline");
+	   });		   
+	     
+	   
+   });
+</script>
+</head>
+<body>   
+	
+<div id="wrapper">
+    <h1>What is the primary goal of communication between teachers and families??</h1>  
+	
+<h4>Click on one of the following choices</h4>
+
+	<h3 id="option1" class="choices"> To discipline students</h3>   
+  	<h3 id="option2" class="choices"> To solve administrative issues </h3>
+  	<h3 id="option3" class="choices"> To establish positive relationships </h3>      
+   
+  <div id="feedback"></div>
+
+  <img id="Answer" style="display:none" src="images/talking.jpg" width="500" height="300" alt="Answer"/>
+
+
+</body>
+</html>
+
+
