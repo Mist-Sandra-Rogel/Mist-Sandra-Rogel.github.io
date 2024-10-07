@@ -1,0 +1,180 @@
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 100%;
+	background-color: #CCECEE; 
+	color: #095d7e; 
+	text-align:justify;
+	width: 35%;
+	border-radius: 50px;
+}
+
+a:hover {
+	font-size: 150%;
+	background-color: #E4FDFF; 
+	color: #05B8FF; 
+}
+
+
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color: #14967F;   /* background color */
+     /* text color for the entire page */
+}
+
+h1, h2, h4, h5, pr { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+h3  { 
+	text-align:center;
+	font-weight: bold;
+	font-size: 150%;
+	/* centers h1 and h2 content */
+}
+
+h2 {color: white}
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto;    /* centers wrapper */
+}
+	
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+#header{
+	padding:10px;
+	text-align:center;
+	background-color:#095D7E;
+	color: #CCECEE;
+	font-weight: bold;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	 }
+#subheader{
+	padding:-1px;
+	text-align:center;
+	background-color: #e2fcd6;
+	color: #14967F;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+.stepTitle{
+	padding:50px;
+	text-align:center;
+	background-color:#CCECEE;
+	font-weight: bold;
+	font-size: 150%;
+	color: #095d7e;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+ }
+	
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: left;
+	border-radius: 50px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 4: Question 1</title>
+ <link href="css/jobaid.css" rel="stylesheet">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="header">
+		<h1>Whats the best way to Communicate with others</h1>
+		<div id="subheader">
+		<h3>By Sandra Rogel</h3>
+		</div>
+    </div>
+<div id="wrapper">
+ 
+<h1>What is the primary goal of communication between teachers and families??</h1>
+ 
+<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+ 
+<img onmouseenter="showAnswer()" id="Question" src="images/communication.jpg" width="500" height="400" alt="Question"/>
+	
+<img onmouseenter="hideAnswer()" id="Answer" src="images/talking.jpg" width="500" height="300" alt="Answer"/>
+      <div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+</div><!--closing main wrapper-->
+<script>
+ function showAnswer() {
+	   $("#Question").hide();
+	   $("#Answer").show();
+	   $("#answer").html("<h2>To establish positive relationships</h2>");
+	}
+
+function hideAnswer() {
+	   $("#Question").show();
+	   $("#Answer").hide();
+	   $("#answer").html("");  
+	}
+</script>
+
+</body>
+</html>
