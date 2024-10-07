@@ -24,9 +24,7 @@ body {
      /* text color for the entire page */
 }
 
-h1, h2, h4, h5, pr { 
-	text-align:center;     /* centers h1 and h2 content */
-}
+
 h1 {background-color: #095d7e;
 	padding:7px;
 	color: white;
@@ -89,24 +87,36 @@ h2 {background-color: white;
 	border-radius: 50px;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
-.stepTitle{
-	padding:50px;
-	text-align:center;
-	background-color:#CCECEE;
-	font-weight: bold;
-	font-size: 150%;
-	color: #095d7e;
+.steph1{
+	background-color: #095d7e;
+	padding:7px;
+	color: white;
+	width: 100;
+	font-size: 200%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	text-align: center;
 	border-radius: 50px;
-	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
  }
 	
-.stepContent{ 
+.steph2{ 
 	background-color: white;
 	padding:7px;
 	display: flex;
 	flex-wrap:wrap;
-	justify-content: left;
+	justify-content: center;
+	text-align: center;
 	border-radius: 50px;
-	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
-	
+}
+.steph3{ 
+	background-color: #095d7e;
+	padding:3px;
+	color: #CCECEE;
+	width: 60;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	text-align: center;
+	border-radius: 50px;
 }
