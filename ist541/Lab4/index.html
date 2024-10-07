@@ -29,19 +29,25 @@
 </div> <!-- closing  “wrapper” -->
 
 </div><!--closing main wrapper-->
+
 <script>
- function showAnswer() {
-	   $("#Question").hide();
-	   $("#Answer").show();
-	   $("#answer").html("<h2>To establish positive relationships</h2>");
-	}
-
-function hideAnswer() {
-	   $("#Question").show();
-	   $("#Answer").hide();
-	   $("#answer").html("");  
-	}
+   $( function() {
+	   
+	   $("#Question").mouseenter( function(){
+		   $("#Question").css("display","none");
+		   $("#Answer").css("display","inline");
+		   $("#hint").css("visibility","hidden");
+		   $("#answer").html("<h2>To establish positive relationships</h2>");
+	   });
+	   
+	   $("#Question").mouseleave( function(){
+		   $("#Question").css("display","inline");
+		   $("#Answer").css("display","none");
+		   $("#hint").css("visibility","visible");
+		   $("#answer").html("");
+	   });
+	   
+   });
 </script>
-
 </body>
 </html>
