@@ -87,36 +87,4 @@ h2 {background-color: white;
 	border-radius: 50px;
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
-.steph1{
-	background-color: #095d7e;
-	padding:7px;
-	color: white;
-	width: 100;
-	font-size: 200%;
-	display: flex;
-	flex-wrap:wrap;
-	justify-content: center;
-	text-align: center;
-	border-radius: 50px;
- }
-	
-.steph2{ 
-	background-color: white;
-	padding:7px;
-	display: flex;
-	flex-wrap:wrap;
-	justify-content: center;
-	text-align: center;
-	border-radius: 50px;
-}
-.steph3{ 
-	background-color: #095d7e;
-	padding:3px;
-	color: #CCECEE;
-	width: 60;
-	display: flex;
-	flex-wrap:wrap;
-	justify-content: center;
-	text-align: center;
-	border-radius: 50px;
-}
+
