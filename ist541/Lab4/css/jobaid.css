@@ -1,7 +1,7 @@
 a {
 	padding: 15px;
 	margin: 3px;
-	font-size: 100%;
+	font-size: 160%;
 	background-color: #CCECEE; 
 	color: #095d7e; 
 	text-align:justify;
@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-	font-size: 150%;
+	font-size: 160%;
 	background-color: #E4FDFF; 
 	color: #05B8FF; 
 }
