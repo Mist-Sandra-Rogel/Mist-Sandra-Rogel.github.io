@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 5: Video and Audio</title>
+ <link href="css/jobaid.css" rel="stylesheet">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="header">
+		<h1>Proper Communcation between Teachers and Parents </h1>
+		<div id="subheader">
+		<h3>By Sandra Rogel</h3>
+		</div>
+			<div class="stepTitle"> 
+	<a href="index.html">  Videos</a>
+	<a href="page2.html">  Audio Quiz </a>
+			</div>
+    </div>
+    <div id="step1">
+		<div class="stepTitle">
+		<a href="page2.html">  Question 1</a>
+		<a href="page3.html">  Question 2 </a>
+		</div><br>
+
+		<div class="stepContent">
+		<h3>What is the primary goal of communication between teachers and families??</h3>
+				<br>
+<div><h5>press the play button</h5>
+				
+
+       <audio controls src="audio/Klamath Dr 52 (1).mp3">
+          </audio></div>
+
+ </div> <!-- closing  “wrapper” -->
+		<h5 id="hint">Hint: Hover over the image below to find out!(scroll down)</h5>
+<img onmouseenter="showAnswer()" id="Question" src="images/Comm.jpg" width="500" height="400" alt="Question"/>
+	
+<img onmouseenter="hideAnswer()" id="Answer" src="images/talking.jpg" width="500" height="300" alt="Answer"/>
+      <div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+ 
+
+
+<script>
+ function showAnswer() {
+	   $("#Question").hide();
+	   $("#Answer").show();
+	   $("#answer").html("<h2>To establish positive relationships.</h2>");
+	}
+
+function hideAnswer() {
+	   $("#Question").show();
+	   $("#Answer").hide();
+	   $("#answer").html("");  
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 5: Video and Audio</title>
+ <link href="css/jobaid.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script>
+   $( function() {
+	   $("#option1").click( function(){
+		   $("#feedback").html("<h2 style='color:red'> Not quite, the 3 C's are Confident, Clear, And Control</h2>");
+	   });
+	   
+       $("#option2").click( function(){
+		   $("#feedback").html("<h2 style='color:red'>  Not quite, the 3 C's are Confident, Clear, And Control </h2>");
+	   });	 
+	   
+       $("#option3").click( function(){
+		   $("#feedback").html("<h2 style='color:green'> Correct! The 3 C's are Confident, Clear, and Control</h2>");
+		   $("#Answer").css("display","inline");
+	   });		   
+	     
+	   
+   });
+</script>
+</head>
+<body>   
+	
+<div id="wrapper">
+    <div id="header"><h1>What are the 3 C's of Communication</h1> <br>
+<br>
+<br />press the play button<br /><br>
+<br>
+<br>
+
+       <audio controls src="audio/Klamath Dr 51.mp3">
+          </audio> <div class="stepTitle"> 
+	<a href="index.html">  Videos</a>
+	<a href="page2.html">  Audio Quiz </a>
+			</div> </div> 
+	<div id="step1">
+		<div class="stepTitle">
+		<a href="page2.html">  Question 1</a>
+		<a href="page3.html">  Question 2 </a>
+		</div>
+<h4>Click on one of the following choices</h4>
+
+	<div class="steph3"><h1 id="option1" class="choices"> Conection, Comfort and Control</h1></div>  
+	<div class="steph3"><h1 id="option2" class="choices"> Chaos, Consol, Calm </h1></div>
+	<div class="steph3"><h1 id="option3" class="choices"> Confident, Clear and Control </h1></div>     
+   
+  <div id="feedback"></div>
+
+  <img id="Answer" style="display:none" src="../Lab4/images/talking.jpg" width="500" height="300" alt="Answer"/>
+
+
+</body>
+</html>
+
+
