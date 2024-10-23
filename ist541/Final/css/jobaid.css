@@ -131,7 +131,8 @@ body {
 	align-items: center;
 	width:90%;
 	padding:90px;
-	font-size: 150%;
+	border-spacing: inherit;
+	font-size: 130%;
 	background-color:white;
 	text-align: center;
 	align-content: center;
@@ -142,13 +143,17 @@ body {
 	
 }
 
+.stepIframe {	
+	padding:60px;
+}
+
 .stepImage {
 	width:35%;	
 	padding:3px;
 }
 
 .stepVideo {	
-	padding:20px;
+	padding:40px;
 }
 
 
