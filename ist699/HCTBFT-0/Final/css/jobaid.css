@@ -28,7 +28,7 @@ body {
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
 	margin: 0 auto;
-	width: 750px;
+	width: 700px;
 	text-align: center;    /* centers wrapper */
 }
 
