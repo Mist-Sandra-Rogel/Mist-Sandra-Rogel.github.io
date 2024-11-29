@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%203.93.33359.0%0D%0A%0D%0A00:00:00.075%20--%3E%2000:00:03.222%0D%0AI%E2%80%99m%20very%20sorry,%20but%20I%20can\u0027t%20let%20you%20change%20the%20emergency%20contact.%0D%0A%0D%0A"}')
