@@ -7,6 +7,7 @@
     <layout name="npnxnanbnsnfns10101100101" font="Lato" controllayout="npnxnanbnsnfns10101100101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
     <layout name="pxabnsnfns10101100100" font="Lato" controllayout="pxabnsnfns10101100100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
     <layout name="npnxnanbnsnfns00000000101" font="Lato" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -243,6 +244,31 @@
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -1587,7 +1613,7 @@
             <slidelink slideid="_player.5oburefMqet.6R7HsSykOiZ" displaytext="Introduction " expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.5tHcTLTCleh" displaytext="Course Purpose " expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.6F2X0Unkckh" displaytext="Course Structure" expand="false" type="slide" />
-            <slidelink slideid="_player.5oburefMqet.5ij8E7NIzaF" displaytext="Learning Objective  1" expand="false" type="slide" />
+            <slidelink slideid="_player.5oburefMqet.6HqC7F9KB7G" displaytext="Module 1" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.5WKeJ7sqids" displaytext="Importance of Communication in Schools" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.5kPMTvZoyJN" displaytext="Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.6qMcbNsytcf" displaytext=" Art Of Communication" expand="false" type="slide" />
@@ -1595,6 +1621,7 @@
             <slidelink slideid="_player.5oburefMqet.6Y7gQ71SicC" displaytext="Quiz" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.6Q8RdLv9OLF" displaytext="Meaningful Communication." expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.68Iou564m5p" displaytext="Basic Communication Skills" expand="false" type="slide" />
+            <slidelink slideid="_player.5oburefMqet.6M436Gl40Tk" displaytext="Module 1" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.5sCziGZu40N" displaytext="Learning Objective  2" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.6hy9HVBQd21" displaytext="Benefits of Positive Communication" expand="false" type="slide" />
             <slidelink slideid="_player.5oburefMqet.5rCvUd8GEft" displaytext="Benefits of Positive Communication" expand="false" type="slide" />
